@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0438826C275D4750002E5CF4 /* ChessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438826B275D4750002E5CF4 /* ChessViewController.swift */; };
+		044B5105275D3AE300357363 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B5104275D3AE300357363 /* BoardView.swift */; };
+		044B5107275D3B5800357363 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B5106275D3B5800357363 /* Shape.swift */; };
+		044B5109275D3B8B00357363 /* PieceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B5108275D3B8B00357363 /* PieceItem.swift */; };
 		0451E46C27598B770025888A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E46B27598B770025888A /* AppDelegate.swift */; };
 		0451E46E27598B770025888A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E46D27598B770025888A /* SceneDelegate.swift */; };
 		0451E47027598B770025888A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E46F27598B770025888A /* ViewController.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0438826B275D4750002E5CF4 /* ChessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessViewController.swift; sourceTree = "<group>"; };
+		044B5104275D3AE300357363 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		044B5106275D3B5800357363 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		044B5108275D3B8B00357363 /* PieceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceItem.swift; sourceTree = "<group>"; };
 		0451E46827598B770025888A /* ChessMasterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessMasterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0451E46B27598B770025888A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0451E46D27598B770025888A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044B5103275D3A2100357363 /* Chess */ = {
+			isa = PBXGroup;
+			children = (
+				044B5104275D3AE300357363 /* BoardView.swift */,
+				044B5106275D3B5800357363 /* Shape.swift */,
+				044B5108275D3B8B00357363 /* PieceItem.swift */,
+			);
+			path = Chess;
+			sourceTree = "<group>";
+		};
 		0451E45F27598B770025888A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +101,7 @@
 		0451E46A27598B770025888A /* ChessMasterApp */ = {
 			isa = PBXGroup;
 			children = (
+				044B5103275D3A2100357363 /* Chess */,
 				0451E488275A7BB90025888A /* Helpers */,
 				0451E48527598C490025888A /* View Controller */,
 				0451E46B27598B770025888A /* AppDelegate.swift */,
@@ -107,6 +126,7 @@
 				0455D369275AA5D8002E0858 /* ComposeViewController.swift */,
 				0455D36B275AAB66002E0858 /* PostViewController.swift */,
 				0455D36F275B2A4E002E0858 /* DetailedPostViewController.swift */,
+				0438826B275D4750002E5CF4 /* ChessViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -254,10 +274,14 @@
 			files = (
 				0455D36A275AA5D8002E0858 /* ComposeViewController.swift in Sources */,
 				0455D36E275B0896002E0858 /* Post.swift in Sources */,
+				044B5105275D3AE300357363 /* BoardView.swift in Sources */,
+				044B5107275D3B5800357363 /* Shape.swift in Sources */,
 				0451E47027598B770025888A /* ViewController.swift in Sources */,
 				0451E46C27598B770025888A /* AppDelegate.swift in Sources */,
 				0455D370275B2A4E002E0858 /* DetailedPostViewController.swift in Sources */,
 				0451E48A275A7BE70025888A /* Utilities.swift in Sources */,
+				044B5109275D3B8B00357363 /* PieceItem.swift in Sources */,
+				0438826C275D4750002E5CF4 /* ChessViewController.swift in Sources */,
 				0455D36C275AAB66002E0858 /* PostViewController.swift in Sources */,
 				0451E48027598BC40025888A /* SignUpViewController.swift in Sources */,
 				0451E48227598C080025888A /* LoginViewController.swift in Sources */,

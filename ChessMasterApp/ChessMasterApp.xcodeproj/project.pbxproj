@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0451E46C27598B770025888A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E46B27598B770025888A /* AppDelegate.swift */; };
+		0451E46E27598B770025888A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E46D27598B770025888A /* SceneDelegate.swift */; };
+		0451E47027598B770025888A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E46F27598B770025888A /* ViewController.swift */; };
+		0451E47327598B770025888A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0451E47127598B770025888A /* Main.storyboard */; };
+		0451E47527598B800025888A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0451E47427598B800025888A /* Assets.xcassets */; };
+		0451E47827598B800025888A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0451E47627598B800025888A /* LaunchScreen.storyboard */; };
+		0451E48027598BC40025888A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E47F27598BC40025888A /* SignUpViewController.swift */; };
+		0451E48227598C080025888A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E48127598C080025888A /* LoginViewController.swift */; };
+		0451E4872759C0D00025888A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0451E4862759C0D00025888A /* GoogleService-Info.plist */; };
+		0451E48A275A7BE70025888A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451E489275A7BE70025888A /* Utilities.swift */; };
+		0455D363275A8743002E0858 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455D362275A8743002E0858 /* Constants.swift */; };
+		0455D368275AA236002E0858 /* HomeUITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455D367275AA236002E0858 /* HomeUITabBarController.swift */; };
+		0455D36A275AA5D8002E0858 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455D369275AA5D8002E0858 /* ComposeViewController.swift */; };
+		0455D36C275AAB66002E0858 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455D36B275AAB66002E0858 /* PostViewController.swift */; };
+		0455D36E275B0896002E0858 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455D36D275B0896002E0858 /* Post.swift */; };
+		0455D370275B2A4E002E0858 /* DetailedPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455D36F275B2A4E002E0858 /* DetailedPostViewController.swift */; };
+		41D2DE051E467EA4DCCD6EDA /* Pods_ChessMasterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51FCB25DD60288337653C33 /* Pods_ChessMasterApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0451E46827598B770025888A /* ChessMasterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessMasterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0451E46B27598B770025888A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0451E46D27598B770025888A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0451E46F27598B770025888A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0451E47227598B770025888A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0451E47427598B800025888A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0451E47727598B800025888A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0451E47927598B800025888A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0451E47F27598BC40025888A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0451E48127598C080025888A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0451E4862759C0D00025888A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0451E489275A7BE70025888A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0455D362275A8743002E0858 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0455D367275AA236002E0858 /* HomeUITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUITabBarController.swift; sourceTree = "<group>"; };
+		0455D369275AA5D8002E0858 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		0455D36B275AAB66002E0858 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		0455D36D275B0896002E0858 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0455D36F275B2A4E002E0858 /* DetailedPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPostViewController.swift; sourceTree = "<group>"; };
+		7B75942C1AD2611B21EF3B52 /* Pods-ChessMasterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChessMasterApp.debug.xcconfig"; path = "Target Support Files/Pods-ChessMasterApp/Pods-ChessMasterApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CBFC324B9C6675F0F4FFB688 /* Pods-ChessMasterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChessMasterApp.release.xcconfig"; path = "Target Support Files/Pods-ChessMasterApp/Pods-ChessMasterApp.release.xcconfig"; sourceTree = "<group>"; };
+		E51FCB25DD60288337653C33 /* Pods_ChessMasterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChessMasterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0451E46527598B770025888A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D2DE051E467EA4DCCD6EDA /* Pods_ChessMasterApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0451E45F27598B770025888A = {
+			isa = PBXGroup;
+			children = (
+				0451E46A27598B770025888A /* ChessMasterApp */,
+				0451E46927598B770025888A /* Products */,
+				36E51032987CEE0A205DD96D /* Pods */,
+				2D7CE4C45DC5817E41D1A067 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0451E46927598B770025888A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0451E46827598B770025888A /* ChessMasterApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0451E46A27598B770025888A /* ChessMasterApp */ = {
+			isa = PBXGroup;
+			children = (
+				0451E488275A7BB90025888A /* Helpers */,
+				0451E48527598C490025888A /* View Controller */,
+				0451E46B27598B770025888A /* AppDelegate.swift */,
+				0451E46D27598B770025888A /* SceneDelegate.swift */,
+				0451E47127598B770025888A /* Main.storyboard */,
+				0451E47427598B800025888A /* Assets.xcassets */,
+				0451E47627598B800025888A /* LaunchScreen.storyboard */,
+				0451E4862759C0D00025888A /* GoogleService-Info.plist */,
+				0451E47927598B800025888A /* Info.plist */,
+				0455D36D275B0896002E0858 /* Post.swift */,
+			);
+			path = ChessMasterApp;
+			sourceTree = "<group>";
+		};
+		0451E48527598C490025888A /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0451E48127598C080025888A /* LoginViewController.swift */,
+				0451E47F27598BC40025888A /* SignUpViewController.swift */,
+				0451E46F27598B770025888A /* ViewController.swift */,
+				0455D367275AA236002E0858 /* HomeUITabBarController.swift */,
+				0455D369275AA5D8002E0858 /* ComposeViewController.swift */,
+				0455D36B275AAB66002E0858 /* PostViewController.swift */,
+				0455D36F275B2A4E002E0858 /* DetailedPostViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		0451E488275A7BB90025888A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0451E489275A7BE70025888A /* Utilities.swift */,
+				0455D362275A8743002E0858 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2D7CE4C45DC5817E41D1A067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E51FCB25DD60288337653C33 /* Pods_ChessMasterApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36E51032987CEE0A205DD96D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B75942C1AD2611B21EF3B52 /* Pods-ChessMasterApp.debug.xcconfig */,
+				CBFC324B9C6675F0F4FFB688 /* Pods-ChessMasterApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0451E46727598B770025888A /* ChessMasterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0451E47C27598B800025888A /* Build configuration list for PBXNativeTarget "ChessMasterApp" */;
+			buildPhases = (
+				70A1E209150E755AB3818A70 /* [CP] Check Pods Manifest.lock */,
+				0451E46427598B770025888A /* Sources */,
+				0451E46527598B770025888A /* Frameworks */,
+				0451E46627598B770025888A /* Resources */,
+				7C784F5E0A9374B0E06C329A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessMasterApp;
+			productName = ChessMasterApp;
+			productReference = 0451E46827598B770025888A /* ChessMasterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0451E46027598B770025888A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0451E46727598B770025888A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 0451E46327598B770025888A /* Build configuration list for PBXProject "ChessMasterApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0451E45F27598B770025888A;
+			productRefGroup = 0451E46927598B770025888A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0451E46727598B770025888A /* ChessMasterApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0451E46627598B770025888A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0451E47827598B800025888A /* LaunchScreen.storyboard in Resources */,
+				0451E4872759C0D00025888A /* GoogleService-Info.plist in Resources */,
+				0451E47527598B800025888A /* Assets.xcassets in Resources */,
+				0451E47327598B770025888A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70A1E209150E755AB3818A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChessMasterApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C784F5E0A9374B0E06C329A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChessMasterApp/Pods-ChessMasterApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChessMasterApp/Pods-ChessMasterApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChessMasterApp/Pods-ChessMasterApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0451E46427598B770025888A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0455D36A275AA5D8002E0858 /* ComposeViewController.swift in Sources */,
+				0455D36E275B0896002E0858 /* Post.swift in Sources */,
+				0451E47027598B770025888A /* ViewController.swift in Sources */,
+				0451E46C27598B770025888A /* AppDelegate.swift in Sources */,
+				0455D370275B2A4E002E0858 /* DetailedPostViewController.swift in Sources */,
+				0451E48A275A7BE70025888A /* Utilities.swift in Sources */,
+				0455D36C275AAB66002E0858 /* PostViewController.swift in Sources */,
+				0451E48027598BC40025888A /* SignUpViewController.swift in Sources */,
+				0451E48227598C080025888A /* LoginViewController.swift in Sources */,
+				0451E46E27598B770025888A /* SceneDelegate.swift in Sources */,
+				0455D368275AA236002E0858 /* HomeUITabBarController.swift in Sources */,
+				0455D363275A8743002E0858 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0451E47127598B770025888A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0451E47227598B770025888A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0451E47627598B800025888A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0451E47727598B800025888A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0451E47A27598B800025888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0451E47B27598B800025888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0451E47D27598B800025888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B75942C1AD2611B21EF3B52 /* Pods-ChessMasterApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChessMasterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.wustl.ChessMasterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0451E47E27598B800025888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBFC324B9C6675F0F4FFB688 /* Pods-ChessMasterApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChessMasterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.wustl.ChessMasterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0451E46327598B770025888A /* Build configuration list for PBXProject "ChessMasterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0451E47A27598B800025888A /* Debug */,
+				0451E47B27598B800025888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0451E47C27598B800025888A /* Build configuration list for PBXNativeTarget "ChessMasterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0451E47D27598B800025888A /* Debug */,
+				0451E47E27598B800025888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0451E46027598B770025888A /* Project object */;
+}
